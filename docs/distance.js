@@ -3,7 +3,7 @@ function calculateDistance(lat1, lon1, lat2, lon2) {
         return degrees * Math.PI / 180;
     }
 
-    const R = 6371; // Earth's radius in kilometers
+    const R = 6371;
     const deltaLat = toRadians(lat2 - lat1);
     const deltaLon = toRadians(lon2 - lon1);
     const a = 
